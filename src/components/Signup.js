@@ -6,13 +6,11 @@ export default function Signup() {
   const passwordRef = useRef()
   const passwordConfirmRef = useRef()
 
-
-
   return (
     <>
       <Card>
         <Card.Body>
-          <h2 className="text-center mb-4">Sign Up</h2>
+          <h2 className="text-center mb-2">Sign Up</h2>
             <Form>
               <Form.Group id='email'>
                 <Form.Label>Email</Form.Label>
@@ -26,7 +24,9 @@ export default function Signup() {
                 <Form.Label>Confirm Password</Form.Label>
                 <Form.Control type="password" ref={passwordConfirmRef} required />
               </Form.Group>
-              <Button className="w-100" type="submit">Sign Up</Button>
+              <div class="d-flex justify-content-end">
+              <Button className="btn-lg" type="submit">Sign Up</Button>
+              </div>
             </Form>
         </Card.Body>
       </Card>
