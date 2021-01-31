@@ -11,6 +11,11 @@ import "bootstrap/dist/css/bootstrap.min.css"
 // Authentication
 //   https://console.firebase.google.com/u/5/project/auth-dev-adccf/authentication/users
 
+// Netlify dashboard
+//   https://app.netlify.com/sites/competent-turing-21b845/overview
+// Deployed Site
+//   https://competent-turing-21b845.netlify.app/login
+
 
 ReactDOM.render(
   <React.StrictMode>
