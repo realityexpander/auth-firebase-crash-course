@@ -9,7 +9,8 @@ import UpdateProfile from './UpdateProfile';
 import Signup from './Signup';
 import Login from './Login';
 import ForgotPassword from './ForgotPassword'
-import Tester from './Tester'
+import Tester from './Tester';
+import PageNotFound from './PageNotFound';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
                 <Route path="/signup" component={Signup} />
                 <Route path="/login" component={Login} />
                 <Route path="/forgot-password" component={ForgotPassword} />
+                <Route component={PageNotFound} />
               </Switch>
             </AuthProvider>
           </Router>
