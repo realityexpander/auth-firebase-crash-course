@@ -1,4 +1,5 @@
 # test route for netlify
-/home           /signup       301
+/home           /signup       200
 
+# default path
 /*              /index.html   200

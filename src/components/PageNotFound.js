@@ -6,8 +6,7 @@ export default function PageNotFound({ location }) {
  return (
   <>
     Page not found - the path "{location && location.pathname}" did not match
-    any React Router routes.
-    
+    any Router routes.
   </>
  )
 }
