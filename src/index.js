@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 // React Authentication Crash Course With Firebase And Routing
 // https://www.youtube.com/watch?v=PKwu15ldZ7k
+// https://github.com/WebDevSimplified/React-Firebase-Auth/blob/master/src/contexts/AuthContext.js
 
 // Firebase Dashboard
 //   https://console.firebase.google.com/u/0/
