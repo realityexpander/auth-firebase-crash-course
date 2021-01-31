@@ -19,6 +19,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 ReactDOM.render(
   <React.StrictMode>
+    hello
     <App />
   </React.StrictMode>,
   document.getElementById('root')
