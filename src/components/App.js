@@ -9,7 +9,7 @@ import UpdateProfile from './UpdateProfile';
 import Signup from './Signup';
 import Login from './Login';
 import ForgotPassword from './ForgotPassword'
-import Test from './Test'
+import Tester from './Tester'
 
 function App() {
   return (
@@ -23,10 +23,10 @@ function App() {
               <Switch>
                 <PrivateRoute exact path="/" component={Dashboard} />
                 <PrivateRoute path="/update-profile" component={UpdateProfile} />
+                <Route path="/test" component={Tester} />
                 <Route path="/signup" component={Signup} />
                 <Route path="/login" component={Login} />
                 <Route path="/forgot-password" component={ForgotPassword} />
-                <Route path="/test" component={Test} />
               </Switch>
             </AuthProvider>
           </Router>
