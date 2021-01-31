@@ -1,3 +1,4 @@
+# test route for netlify
 /home           /signup       301
-/*              /index.html   200
 
+/*              /index.html   200
